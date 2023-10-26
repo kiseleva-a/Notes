@@ -70,14 +70,14 @@ object NoteService {
         return true
     }
 
-    fun getNotes() = notes //Возвращает список заметок, созданных пользователем
+    fun getNotes() = notes.filter { !it.isDeleted } //Возвращает список заметок, созданных пользователем
 
     fun getNoteById(noteId: Int) = //Возвращает заметку по её id
         notes.find{it.id == noteId && !it.isDeleted} ?: throw NoteNotFoundException("No note with $noteId")
 
     fun getComments(noteId: Int): MutableList<Comment> { //Возвращает список комментариев к заметке
         val note = notes.find{it.id == noteId && !it.isDeleted} ?: throw NoteNotFoundException("No note with $noteId")
-        return note.comments
+        return note.comments.filter { !it.isDeleted }.toMutableList()
     }
 
     fun restoreComment(noteId: Int, commentId: Int): Boolean { //Восстанавливает удалённый комментарий
