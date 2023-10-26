@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="NoteServiceTest" tests="23" skipped="0" failures="0" errors="0" timestamp="2023-10-26T21:01:54" hostname="DESKTOP-U6M0ICK" time="0.034">
+<testsuite name="NoteServiceTest" tests="23" skipped="0" failures="0" errors="0" timestamp="2023-10-26T21:09:16" hostname="DESKTOP-U6M0ICK" time="0.027">
   <properties/>
-  <testcase name="getNoteByIdNoZero" classname="NoteServiceTest" time="0.018"/>
-  <testcase name="getNoteByIdShodThrow" classname="NoteServiceTest" time="0.0"/>
+  <testcase name="getNoteByIdNoZero" classname="NoteServiceTest" time="0.017"/>
+  <testcase name="getNoteByIdShodThrow" classname="NoteServiceTest" time="0.001"/>
   <testcase name="editNoteShouldNotThrow" classname="NoteServiceTest" time="0.0"/>
-  <testcase name="deleteCommentShouldThrowNoteNotFoundException" classname="NoteServiceTest" time="0.0"/>
+  <testcase name="deleteCommentShouldThrowNoteNotFoundException" classname="NoteServiceTest" time="0.001"/>
   <testcase name="commentShouldThrow" classname="NoteServiceTest" time="0.0"/>
-  <testcase name="getNoteNoZero" classname="NoteServiceTest" time="0.0"/>
+  <testcase name="getNoteNoZero" classname="NoteServiceTest" time="0.001"/>
   <testcase name="addNoteNoZero" classname="NoteServiceTest" time="0.0"/>
   <testcase name="deleteNoteShouldThrow" classname="NoteServiceTest" time="0.0"/>
   <testcase name="deleteCommentShouldThrowCommentNotFoundException" classname="NoteServiceTest" time="0.0"/>
   <testcase name="restoreCommentNoZero" classname="NoteServiceTest" time="0.0"/>
   <testcase name="commentShouldNotThrow" classname="NoteServiceTest" time="0.001"/>
-  <testcase name="editNoteShouldThrow" classname="NoteServiceTest" time="0.001"/>
+  <testcase name="editNoteShouldThrow" classname="NoteServiceTest" time="0.0"/>
   <testcase name="deleteNoteShouldNotThrow" classname="NoteServiceTest" time="0.0"/>
-  <testcase name="restoreCommentShodThrowNoteNotFoundException" classname="NoteServiceTest" time="0.001"/>
-  <testcase name="editCommentShouldThrowNoteNotFoundException" classname="NoteServiceTest" time="0.001"/>
-  <testcase name="getCommentShodThrow" classname="NoteServiceTest" time="0.002"/>
+  <testcase name="restoreCommentShodThrowNoteNotFoundException" classname="NoteServiceTest" time="0.0"/>
+  <testcase name="editCommentShouldThrowNoteNotFoundException" classname="NoteServiceTest" time="0.0"/>
+  <testcase name="getCommentShodThrow" classname="NoteServiceTest" time="0.001"/>
   <testcase name="restoreCommentShodThrowCommentNotFoundException" classname="NoteServiceTest" time="0.001"/>
   <testcase name="editCommentShouldNotThrow" classname="NoteServiceTest" time="0.0"/>
   <testcase name="deleteCommentShouldNotThrow" classname="NoteServiceTest" time="0.0"/>
-  <testcase name="editCommentShouldThrowCommentNotFoundException" classname="NoteServiceTest" time="0.001"/>
+  <testcase name="editCommentShouldThrowCommentNotFoundException" classname="NoteServiceTest" time="0.0"/>
   <testcase name="getCommentNoZero" classname="NoteServiceTest" time="0.0"/>
   <testcase name="updateNoteShouldThrowNoteNotFoundException" classname="NoteServiceTest" time="0.0"/>
   <testcase name="updateNoteShouldNotThrow" classname="NoteServiceTest" time="0.0"/>

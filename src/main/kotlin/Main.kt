@@ -83,6 +83,7 @@ object NoteService {
     fun restoreComment(noteId: Int, commentId: Int): Boolean { //Восстанавливает удалённый комментарий
         val note = notes.find {it.id == noteId && !it.isDeleted} ?: throw NoteNotFoundException("No note with $noteId")
         val comment = note.comments.find{it.id == commentId && it.isDeleted} ?: throw CommentNotFoundException("No comment with $commentId")
+        note.comments += comment
         return true
     }
 }
